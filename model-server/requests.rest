@@ -1,0 +1,6 @@
+POST http://localhost:5000/model-api 
+Content-Type: application/json
+
+{
+    "data": [20, 15, 22, 6, 2, 0, 0, 0, 0, 2, 0.32]
+}

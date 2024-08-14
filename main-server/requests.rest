@@ -1,0 +1,77 @@
+GET http://localhost:3001/api/startups
+
+###
+
+GET http://localhost:3001/api/users
+
+###
+
+POST http://localhost:3001/api/users 
+Content-Type: application/json
+
+{
+    "username": "SaketR1",
+    "password": "secret",
+    "name": "Saket Reddy"
+}
+
+###
+
+POST http://localhost:3001/api/login 
+Content-Type: application/json
+
+{
+    "username": "SaketR1",
+    "password": "secret"
+}
+
+###
+
+POST http://localhost:3001/api/startups 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNha2V0UjEiLCJpZCI6OCwiaWF0IjoxNzIzMjI0OTMyfQ.U4WiL1uzRhJQGT2nkxn2gasUnw6X27XKak-fIdheVrw
+
+{
+    "city": 0,
+    "state": 0,
+    "category": 0,
+    "length": 0,
+    "employees": 0,
+    "jobsCreated": 0,
+    "jobsRetained": 0,
+    "cityType": 0,
+    "revolvingLineCredit": 0,
+    "lowDoc": 0,
+    "amount": 0,
+    "prediction": 0
+}
+
+###
+
+GET http://localhost:3001/api/users/20
+
+###
+
+DELETE http://localhost:3001/api/startups/16
+
+###
+
+DELETE http://localhost:3001/api/users/27
+
+###
+
+POST http://localhost:3001/api/rag 
+Content-Type: application/json
+
+{
+    "data": [20, 15, 22, 6, 2, 0, 0, 0, 0, 2, 0.32, 0.75]
+}
+
+###
+
+POST http://localhost:3001/main-api 
+Content-Type: application/json
+
+{
+    "data": [20, 15, 22, 6, 2, 0, 0, 0, 0, 2, 0.32]
+}

@@ -1,0 +1,149 @@
+#root {
+  --primary-color: #ff6200;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 15px;
+  box-shadow: 3px 3px 10px 3px darkgray; 
+  background-color: white;
+  color: var(--primary-color);
+  height: 9vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.header-spacer {
+  height: 9vh;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-smart-startup {
+  background-image: linear-gradient(rgba(0 0 0 / 40%), rgba(0 0 0 / 40%)), url("../public/create-a-prediction-banner-bg.jpg");
+  height: 60vh;
+  background-position: center;
+}
+
+/* 
+.banner-create-a-prediction {
+  background-image: linear-gradient(rgba(0 0 0 / 40%), rgba(0 0 0 / 40%)), url("../public/smart-startup-banner-bg.jpg");
+  height: 40vh;
+  background-position: top;
+} */
+
+.banner-heading {
+  color: white;
+  font-size: 3.5rem;
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.1rem;
+  width: 60%;
+  margin-block: 5rem;
+  margin-inline: auto; 
+}
+
+.description-paragraph {
+  margin-bottom: 2rem; 
+}
+
+.container {
+  max-width: 1000px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.center-container {
+  text-align: center; 
+}
+
+.bottom-container {
+  margin-top: 1rem;
+}
+
+.account-loading-container {
+  height: 100vh; 
+}
+
+.box {
+  font-size: 1.1rem;
+  border-radius: 15px;
+  /* box-shadow: 0 0 10px 7.5px #ff6200; */
+  padding: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-background {
+  background-image: linear-gradient(rgba(0 0 0 / 40%), rgba(0 0 0 / 40%)), url("../public/smart-startup-banner-bg.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 50px;
+  padding-bottom: 75px;
+}
+
+.background {
+  background-color: var(--primary-color);
+  padding: 50px;
+  padding-bottom: 110px;
+}
+
+#submit {
+  color: white;
+  margin-top: 25px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  padding: 10px; 
+  transition: background-color 100ms;
+  
+  cursor: pointer;     
+}
+
+#submit:hover {
+  background-color: orange; 
+}
+
+#submit:active {
+  box-shadow: inset 0 0 0 2px white; 
+  border-color: white; 
+  border-radius: 7.5px;
+}
