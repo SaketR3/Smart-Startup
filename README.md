@@ -39,7 +39,7 @@ Here, start-ups can enter their information.
 <br />
 <br />
 
-![Form with questions asking for start-up information](/readme-images/prediction-creation-page.png)
+![Form with questions asking for start-up information](https://github.com/user-attachments/assets/7d403fee-ad57-403d-8ae0-8d7f189d7814)
 
 <br />
 
@@ -49,7 +49,7 @@ Start-ups see the model's prediction as well as advice created with retrieval au
 <br />
 <br />
 
-![Box with model prediction, which is a percentage, and advice from ChatGPT](/readme-images/prediction-results.png)
+![Box with model prediction, which is a percentage, and advice from ChatGPT](https://github.com/user-attachments/assets/4bd37e00-83b5-4f5c-83fd-2f3e46de0921)
 
 <br />
 
@@ -59,18 +59,16 @@ Here, start-ups can see their latest information, model prediction, and advice.
 <br />
 <br />
 
-![Box with start-up's information such as location and loan type](/readme-images/account-dashboard-page-1.png)
+![Box with start-up's information such as location and loan type](https://github.com/user-attachments/assets/94113e4a-80ed-4821-b666-6b2e7d9cb4d5)
 
-![Box with more of start-up's information such as model prediction and advice](/readme-images/account-dashboard-page-2.png)
+![Box with more of start-up's information such as model prediction and advice](https://github.com/user-attachments/assets/1310a1e1-8729-4960-ba69-7851fcad0d4f)
 
 <br />
 
 <p><strong>Account Creation and Log-In Pages</strong></p> 
 
-![Account creation page asking for username, password, and name](/readme-images/account-creation-page.png)
+![Account creation page asking for username, password, and name](https://github.com/user-attachments/assets/4c3487b6-7009-4299-8d7d-4cad2b3a210e)
 
-![Log-in page asking for username and password](/readme-images/login-page.png)
+![Log-in page asking for username and password](https://github.com/user-attachments/assets/86c267a7-c557-412e-8a93-06f16d5f3c60)
 
 </div>
-
-
