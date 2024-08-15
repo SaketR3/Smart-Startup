@@ -31,7 +31,7 @@ Finally, I programmed an authentication system so that start-ups can create an a
 
 
 
-<h4 align="center">Technical Skills</h4>
+<h4 align="center">More Details</h4>
 <div align="center">
 <p><strong>Prediction Creation Page:</strong></p>
 Here, start-ups can enter their information.
@@ -59,7 +59,9 @@ Here, start-ups can see their latest information, model prediction, and advice.
 <br />
 <br />
 
-![Box with information start-up's information such as location and loan type](/readme-images/account-dashboard-page-1.png)
+![Box with start-up's information such as location and loan type](/readme-images/account-dashboard-page-1.png)
+
+![Box with more of start-up's information such as model prediction and advice](/readme-images/account-dashboard-page-2.png)
 
 <br />
 
